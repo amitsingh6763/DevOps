@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM dokken/centos-8
 MAINTAINER Amit singh <amitsingh6763@gmail.com>
 RUN yum install -y httpd unzip 
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page285/bitcypo.zip /var/www/html
